@@ -70,6 +70,7 @@ which couchapp
 
 # allow deploy version to be overridden
 # with `DEPLOY_VERSION=testing npm start`.
+DEPLOY_VERSION="v2.6.12-5-g7567fad"
 if [ "$DEPLOY_VERSION" == "" ]; then
   DEPLOY_VERSION=`git describe --tags`
 fi
